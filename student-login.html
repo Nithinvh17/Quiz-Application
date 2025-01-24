@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Login</h1>
+    </header>
+    <main>
+        <form id="login-form" action="quiz-sheet.html" method="GET">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="reg-number">Registration Number:</label>
+            <input type="text" id="reg-number" name="reg-number" required>
+
+            <label for="sem">Semester:</label>
+            <select id="sem" name="sem" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+
+            <label for="branch">Branch:</label>
+            <select id="branch" name="branch" required>
+                <option value="CSE">CSE</option>
+                <option value="ECE">ECE</option>
+                <option value="MECH">MECH</option>
+                <option value="CIVIL">CIVIL</option>
+            </select>
+
+            <label for="subject">Subject:</label>
+            <select id="subject" name="subject" required>
+                <option value="FSD">FSD</option>
+                <option value="ES">ES</option>
+                <option value="IC">IC</option>
+                <option value="Kannada">Kannada</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
